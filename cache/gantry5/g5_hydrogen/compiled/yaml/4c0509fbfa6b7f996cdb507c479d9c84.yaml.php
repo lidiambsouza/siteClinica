@@ -1,0 +1,51 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:/xampp/htdocs/centromedico/templates/g5_hydrogen/custom/config/_offline/index.yaml',
+    'modified' => 1548801251,
+    'data' => [
+        'name' => '_offline',
+        'timestamp' => 1548801251,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/offline.png',
+            'name' => '_offline',
+            'timestamp' => 1548801250
+        ],
+        'positions' => [
+            'footer' => 'Footer'
+        ],
+        'sections' => [
+            'header' => 'Header',
+            'main' => 'Main',
+            'footer' => 'Footer'
+        ],
+        'particles' => [
+            'logo' => [
+                'logo-9441' => 'Logo'
+            ],
+            'spacer' => [
+                'spacer-3995' => 'Spacer',
+                'spacer-7804' => 'Spacer'
+            ],
+            'messages' => [
+                'system-messages-3260' => 'System Messages'
+            ],
+            'content' => [
+                'system-content-9934' => 'Page Content'
+            ],
+            'position' => [
+                'position-footer' => 'Footer'
+            ],
+            'copyright' => [
+                'copyright-5592' => 'Copyright'
+            ],
+            'branding' => [
+                'branding-4051' => 'Branding'
+            ]
+        ],
+        'inherit' => [
+            
+        ]
+    ]
+];

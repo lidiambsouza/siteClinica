@@ -1,0 +1,173 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1548801250
+layout:
+  /header/: {  }
+  /navigation/:
+    -
+      - 'menu-5752 85'
+      - 'logo-4978 15'
+  /showcase/:
+    -
+      - sample-1
+  /feature/: {  }
+  /main/:
+    -
+      - sample-2
+    -
+      - sample-3
+    -
+      - sample-9188
+    -
+      - sample-9195
+    -
+      - sample-4687
+  /subfeature/: {  }
+  /footer/:
+    -
+      - 'logo-1918 40'
+      - 'copyright-8156 45'
+      - 'totop-9861 15'
+  offcanvas:
+    -
+      - mobile-menu-6065
+structure:
+  header:
+    attributes:
+      boxed: '3'
+      class: ''
+      variations: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'background: url("/centromedico/templates/g5_hydrogen/custom/images/principal107.png?5c571323") no-repeat center; background-size: cover;'
+  feature:
+    type: section
+    attributes:
+      boxed: '3'
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'height: 0px;'
+  main:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'padding: 0px;'
+  subfeature:
+    type: section
+    attributes:
+      boxed: '3'
+      class: flush
+      variations: ''
+  footer:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'height: 80px;'
+content:
+  menu-5752:
+    block:
+      extra:
+        -
+          style: 'height: 65px;'
+  logo-4978:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Logo - SF.png'
+    block:
+      extra:
+        -
+          style: 'height: 65px;'
+  sample-1:
+    title: 'Gantry 5'
+    attributes:
+      image: ''
+      headline: ''
+      description: "<p >Saúde para todos !<p>\n<p>Consultas Médicas, Exames e Exames  de Laboratório<p>"
+      link: ''
+      linktext: ''
+      samples: {  }
+  sample-2:
+    title: 'Getting Started'
+    attributes:
+      image: ''
+      headline: ''
+      description: "<div class=\"g-grid\" style=\"height: 85%;\">\n<div class=\"g-block 50a\" style=\"\n    width: 50%;\n    height: 85%;\n\">\n    \n    \n    <div class=\"g-grid\" style=\"color: #72b551;\">\n    \n\t<div class=\"info-box\" style=\"\n    margin: 10px;\n    height: 200px;\n    margin-top: 0px;\n\">\n\t<div style=\"\">\n\t\t\n    <h2 style=\"color: #4b954b;\"><img src=\"/centromedico/templates/g5_hydrogen/custom/images/icon-verd.png\" style=\"\n    width: 10%;\n\">  Exames  </h2>\n    \n\t</div>\n  \t<div style=\"\">\n\t\t\n\t\t\n\t\t\t<div style=\"text-align: center;/* height: 0px; */\">\n\t\t\t\t<p style=\"\n    margin: 5px;\n\"><span>Acesse os Exames Laboratoriais online.</span></p>\n\t\t\t\t\n\t\t\t\t<a class=\"button\" target=\"_blank\" href=\"http://localhost/centromedico/index.php/exames\" style=\"\">VER RESULTADOS</a>\n\t\t\t\t\n\t\t\t</div>\t\t\n\t</div>\n\t</div>\n\t\n\t\n\t\n\t<div class=\"info-box\" style=\"\n    height: 200px;\n    margin: 10px;\nmargin-top: 0px;\n    margin-bottom: 10px;\n    \n\">\n    <div style=\"\">\n    <h2 style=\"color: #4b954b;margin: 0px;\"> <img src=\"/centromedico/templates/g5_hydrogen/custom/images/con-verd-clock.png\" style=\"\n    width: 10%;\n\">  Horários de Funcionamento  </h2>\n\t\t\n\t</div>\n  \t<div style=\"\">\n\t\t\n\t\t\n\t\t\t<div>\n\t\t\t\t<p style=\"\n    margin: 2px;\n\">\n\t\t\t\t\t<span>Seg - Sex</span>\n\t\t\t\t\t<span>6:30 horas - 18:00 horas</span>\n\t\t\t\t</p>\n\t\t\t\t<p style=\"\n    margin: 2px;\n\">\n\t\t\t\t\t<span>Sábado</span>\n\t\t\t\t\t<span>7:00 horas - 12:00 horas</span>\n\t\t\t\t</p>\n\t\t\t\t<p style=\"\n    margin: 2px;\n\">\n\t\t\t\t\t<span>Domingo</span>\n\t\t\t\t\t<span>Fechado</span>\n\t\t\t\t</p>\n\t\t\t</div>\t\t\n\t</div>\n        </div>\n\t\n\t\n\t\n\n\n\n\n\n</div>\n\n</div>\n    \n    \n    \n    \n    \n<div class=\"g-block 50b\" style=\"\n    width: 50%;\n    /* height: 85%; */\n\">\n    <img src=\"/centromedico/templates/g5_hydrogen/custom/images/corpo2.jpg\" style=\"\n    height: 85%;\n\"></div></div>\n\n\n\n\n\n\n\n"
+      link: ''
+      linktext: ''
+      samples: {  }
+    block:
+      extra:
+        -
+          style: 'padding: 0px;'
+  sample-3:
+    title: 'Key Features'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\t\t<div class=\"g-grid\">\n\t\t\t<div class=\"g-block\">\n\t\t\t\t<div class=\"g-content\" style=\"\n    padding: 0px;\n    margin: 0px;\n\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"sample-description\">\t\t<div class=\"g-grid\">\n\t\t\t<div class=\"g-block\">\n\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/cardio.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Cardiologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/dermato.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Dermatologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/psico.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Psicologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t</div>\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t</div>\n\t"
+      link: ''
+      linktext: ''
+      samples: {  }
+  sample-9188:
+    title: 'Key Features2'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/nutri.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Nutricionista</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/otorrino.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Otorrinolaringologista</h4>\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/gastro.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Gastrologista</h4>\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n"
+      link: ''
+      linktext: ''
+      samples: {  }
+  sample-9195:
+    title: 'Key Features3'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/clinica.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Clínica Médica</h4>\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/pedi.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Pediatria</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/gineco.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Ginecologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t"
+      link: ''
+      linktext: ''
+      samples: {  }
+  sample-4687:
+    title: 'Key Features4'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\n\t\t<div class=\"g-grid\">\n    <div class=\"g-block\"></div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/urolo.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Urologista</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n    <div class=\"g-block\"></div>\n\t\t\t\t\t</div>\n\t"
+      link: ''
+      linktext: ''
+      samples: {  }
+  logo-1918:
+    title: 'Logo / Image'
+  copyright-8156:
+    attributes:
+      date:
+        start: now
+      owner: 'Desenvolvido by Lídia Beirão'
+  totop-9861:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-up fa-fw fa-lg'
+      content: Voltar
+  mobile-menu-6065:
+    title: 'Mobile Menu'

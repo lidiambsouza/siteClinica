@@ -1,0 +1,132 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1548801250
+layout:
+  /header/: {  }
+  /navigation/:
+    -
+      - 'menu-5752 85'
+      - 'logo-4978 15'
+  /showcase/: {  }
+  /feature/: {  }
+  /main/:
+    -
+      - system-messages-4909
+  /subfeature/:
+    -
+      - sample-3
+    -
+      - sample-9188
+    -
+      - sample-9195
+    -
+      - sample-4687
+  /footer/:
+    -
+      - 'logo-1918 40'
+      - 'copyright-8156 45'
+      - 'totop-9861 15'
+  offcanvas:
+    -
+      - mobile-menu-6065
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'background: url("/centromedico/templates/g5_hydrogen/custom/images/principal107.png?5c571323") no-repeat center; background-size: cover;'
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  subfeature:
+    type: section
+    attributes:
+      boxed: ''
+      class: flush
+      variations: ''
+  footer:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'height: 80px;'
+content:
+  menu-5752:
+    block:
+      id: 'lisia destes'
+      class: 'lidia teste'
+  logo-4978:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Logo - SF.png'
+  sample-3:
+    title: 'Key Features'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\n\t\t<div class=\"g-grid\">\n\t\t\t<div class=\"g-block\">\n\t\t\t\t<div class=\"g-content\" style=\"\n    padding: 0px;\n    margin: 0px;\n\">\n\t\t\t\t\t\t\t\t\t\t<h1 style=\"\n    color: #4b954b;\n\">ESPECIALIDADES</h1>\t\t\t\t\t<div class=\"sample-description\">\t\t<div class=\"g-grid\">\n\t\t\t<div class=\"g-block\">\n\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/cardio.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Cardiologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/dermato.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Dermatologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/psico.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Psicologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t</div>\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t</div>\n\t"
+      link: ''
+      linktext: ''
+      samples: {  }
+  sample-9188:
+    title: 'Key Features2'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/nutri.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Nutricionista</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/otorrino.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Otorrinolaringologista</h4>\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"/centromedico/images/especialidade/gastro.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Gastrologista</h4>\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n"
+      link: ''
+      linktext: ''
+      samples: {  }
+  sample-9195:
+    title: 'Key Features3'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\n\t\t<div class=\"g-grid\">\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/clinica.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Clínica Médica</h4>\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/pedi.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Pediatria</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"g-block  box2\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/gineco.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Ginecologia</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t"
+      link: ''
+      linktext: ''
+      samples: {  }
+  sample-4687:
+    title: 'Key Features4'
+    attributes:
+      image: ''
+      headline: ''
+      description: "\n\t\t<div class=\"g-grid\">\n    <div class=\"g-block\"></div>\n\t\t\t\t\t\t\t<div class=\"g-block  box4\">\n\t\t\t\t\t<div class=\"g-content\">\n\t\t\t\t\t\t<img src=\"images/especialidade/urolo.jpg\" style=\"width: 288px;height: 192px;\">\n\t\t\t\t\t\t<h4>Urologista</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n    <div class=\"g-block\"></div>\n\t\t\t\t\t</div>\n\t"
+      link: ''
+      linktext: ''
+      samples: {  }
+  logo-1918:
+    title: 'Logo / Image'
+  copyright-8156:
+    attributes:
+      date:
+        start: now
+      owner: 'Desenvolvido by Lídia Beirão'
+  totop-9861:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-up fa-fw fa-lg'
+      content: Voltar
+  mobile-menu-6065:
+    title: 'Mobile Menu'

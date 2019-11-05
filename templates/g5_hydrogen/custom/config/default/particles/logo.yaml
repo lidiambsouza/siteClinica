@@ -1,0 +1,8 @@
+enabled: '1'
+url: ''
+target: _self
+image: 'gantry-media://Logo - SF.png'
+link: '1'
+svg: ''
+text: ''
+class: gantry-logo
